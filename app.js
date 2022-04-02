@@ -57,7 +57,7 @@ if(parolValue === ''){
 
 }
 else if(parolValue !== parol2Value){
-    errorForm(parol,'Oops Error!.Try again')
+    errorForm(parol,'Şifrələr uyğunlaşmır!')
 
 }
 else{
@@ -67,11 +67,11 @@ else{
 
 if(parol2Value === ''){
 
-    errorForm(parol2,'Oops Error!.Try again')
+    errorForm(parol2,'Şifrələr uyğunlaşmır!')
 
 }
 else if(parolValue !== parol2Value){
-    errorForm(parol2,'Oops Error!.Try again')
+    errorForm(parol2,'Şifrələr uyğunlaşmır!')
 
 }
 else{
